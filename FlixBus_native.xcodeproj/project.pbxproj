@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		548572E6292A4AE600B3E5C6 /* CardModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548572E5292A4AE500B3E5C6 /* CardModalView.swift */; };
+		548572E8292A7C4500B3E5C6 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548572E7292A7C4500B3E5C6 /* TestView.swift */; };
+		548572EA292AAA6F00B3E5C6 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548572E9292AAA6F00B3E5C6 /* CalendarView.swift */; };
+		54A3140F29251DEC00F5C893 /* FlixBus_nativeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A3140E29251DEC00F5C893 /* FlixBus_nativeApp.swift */; };
+		54A3141129251DEC00F5C893 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A3141029251DEC00F5C893 /* ContentView.swift */; };
+		54A3141329251DED00F5C893 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54A3141229251DED00F5C893 /* Assets.xcassets */; };
+		54A3141629251DED00F5C893 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54A3141529251DED00F5C893 /* Preview Assets.xcassets */; };
+		54A3142029251F3000F5C893 /* TripCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A3141F29251F3000F5C893 /* TripCardView.swift */; };
+		54BD4BB0292BCF2F001EBA86 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BD4BAF292BCF2F001EBA86 /* ModelData.swift */; };
+		54CD2799292E8160004A8C6D /* PinnedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CD2798292E8160004A8C6D /* PinnedView.swift */; };
+		54DC4A3D292BBD51009576FD /* TripCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DC4A3C292BBD51009576FD /* TripCard.swift */; };
+		54DC4A43292BCDF4009576FD /* flixbusData.json in Resources */ = {isa = PBXBuildFile; fileRef = 54DC4A42292BCDF4009576FD /* flixbusData.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		548572E5292A4AE500B3E5C6 /* CardModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModalView.swift; sourceTree = "<group>"; };
+		548572E7292A7C4500B3E5C6 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		548572E9292AAA6F00B3E5C6 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		54A3140B29251DEC00F5C893 /* FlixBus_native.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlixBus_native.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54A3140E29251DEC00F5C893 /* FlixBus_nativeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlixBus_nativeApp.swift; sourceTree = "<group>"; };
+		54A3141029251DEC00F5C893 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		54A3141229251DED00F5C893 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54A3141529251DED00F5C893 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		54A3141F29251F3000F5C893 /* TripCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCardView.swift; sourceTree = "<group>"; tabWidth = 4; usesTabs = 0; };
+		54BD4BAF292BCF2F001EBA86 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		54CD2798292E8160004A8C6D /* PinnedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinnedView.swift; sourceTree = "<group>"; };
+		54DC4A3C292BBD51009576FD /* TripCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCard.swift; sourceTree = "<group>"; };
+		54DC4A42292BCDF4009576FD /* flixbusData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = flixbusData.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54A3140829251DEC00F5C893 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54A3140229251DEC00F5C893 = {
+			isa = PBXGroup;
+			children = (
+				54A3140D29251DEC00F5C893 /* FlixBus_native */,
+				54A3140C29251DEC00F5C893 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54A3140C29251DEC00F5C893 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54A3140B29251DEC00F5C893 /* FlixBus_native.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54A3140D29251DEC00F5C893 /* FlixBus_native */ = {
+			isa = PBXGroup;
+			children = (
+				54A3140E29251DEC00F5C893 /* FlixBus_nativeApp.swift */,
+				54A3141D29251E4B00F5C893 /* Views */,
+				54A3141E29251E8A00F5C893 /* Models */,
+				54DC4A3F292BCD1C009576FD /* Resources */,
+				54A3141229251DED00F5C893 /* Assets.xcassets */,
+				54A3141429251DED00F5C893 /* Preview Content */,
+			);
+			path = FlixBus_native;
+			sourceTree = "<group>";
+		};
+		54A3141429251DED00F5C893 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				54A3141529251DED00F5C893 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		54A3141D29251E4B00F5C893 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				54A3141029251DEC00F5C893 /* ContentView.swift */,
+				54CD2798292E8160004A8C6D /* PinnedView.swift */,
+				54A3141F29251F3000F5C893 /* TripCardView.swift */,
+				548572E5292A4AE500B3E5C6 /* CardModalView.swift */,
+				548572E7292A7C4500B3E5C6 /* TestView.swift */,
+				548572E9292AAA6F00B3E5C6 /* CalendarView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		54A3141E29251E8A00F5C893 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				54DC4A3C292BBD51009576FD /* TripCard.swift */,
+				54BD4BAF292BCF2F001EBA86 /* ModelData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		54DC4A3F292BCD1C009576FD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				54DC4A42292BCDF4009576FD /* flixbusData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54A3140A29251DEC00F5C893 /* FlixBus_native */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54A3141929251DED00F5C893 /* Build configuration list for PBXNativeTarget "FlixBus_native" */;
+			buildPhases = (
+				54A3140729251DEC00F5C893 /* Sources */,
+				54A3140829251DEC00F5C893 /* Frameworks */,
+				54A3140929251DEC00F5C893 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlixBus_native;
+			productName = FlixBus_native;
+			productReference = 54A3140B29251DEC00F5C893 /* FlixBus_native.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54A3140329251DEC00F5C893 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					54A3140A29251DEC00F5C893 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 54A3140629251DEC00F5C893 /* Build configuration list for PBXProject "FlixBus_native" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54A3140229251DEC00F5C893;
+			productRefGroup = 54A3140C29251DEC00F5C893 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54A3140A29251DEC00F5C893 /* FlixBus_native */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54A3140929251DEC00F5C893 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A3141629251DED00F5C893 /* Preview Assets.xcassets in Resources */,
+				54A3141329251DED00F5C893 /* Assets.xcassets in Resources */,
+				54DC4A43292BCDF4009576FD /* flixbusData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54A3140729251DEC00F5C893 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				548572E6292A4AE600B3E5C6 /* CardModalView.swift in Sources */,
+				548572E8292A7C4500B3E5C6 /* TestView.swift in Sources */,
+				548572EA292AAA6F00B3E5C6 /* CalendarView.swift in Sources */,
+				54A3141129251DEC00F5C893 /* ContentView.swift in Sources */,
+				54A3140F29251DEC00F5C893 /* FlixBus_nativeApp.swift in Sources */,
+				54BD4BB0292BCF2F001EBA86 /* ModelData.swift in Sources */,
+				54CD2799292E8160004A8C6D /* PinnedView.swift in Sources */,
+				54DC4A3D292BBD51009576FD /* TripCard.swift in Sources */,
+				54A3142029251F3000F5C893 /* TripCardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		54A3141729251DED00F5C893 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		54A3141829251DED00F5C893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54A3141A29251DED00F5C893 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FlixBus_native/Preview Content\"";
+				DEVELOPMENT_TEAM = LU4XHFZPKM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ariuna.FlixBus-native";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54A3141B29251DED00F5C893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FlixBus_native/Preview Content\"";
+				DEVELOPMENT_TEAM = LU4XHFZPKM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ariuna.FlixBus-native";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54A3140629251DEC00F5C893 /* Build configuration list for PBXProject "FlixBus_native" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54A3141729251DED00F5C893 /* Debug */,
+				54A3141829251DED00F5C893 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54A3141929251DED00F5C893 /* Build configuration list for PBXNativeTarget "FlixBus_native" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54A3141A29251DED00F5C893 /* Debug */,
+				54A3141B29251DED00F5C893 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54A3140329251DEC00F5C893 /* Project object */;
+}
